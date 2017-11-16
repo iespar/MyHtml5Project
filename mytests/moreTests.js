@@ -20,7 +20,7 @@ function sum(x,y) {
 describe('Koko', function() {
     describe('sum()', function() {
         it('sum should add two numbers!!!!!', function() {
-            assert.equal(sum(5,10),15);
+            assert.equal(sum(85,100),185);
         });
     });
 });

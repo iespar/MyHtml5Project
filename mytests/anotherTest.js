@@ -26,7 +26,11 @@ describe('Koko', function() {
 });
 
 describe('Kiko', function() {
-    it('20 + 30 should be equal to 50', function() {
-        assert.equal(sum(20,30),50);
+    it('120 + 30 should be equal to 150', function() {
+        assert.equal(sum(120,30),150);
+    });
+
+    it('220 + 230 should be equal to 450', function() {
+        assert.equal(sum(120,230),450);
     });
 });
