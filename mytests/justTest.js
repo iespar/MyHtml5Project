@@ -33,9 +33,4 @@ describe('Kiko', function() {
     it('220 + 230 should be equal to 450', function() {
         assert.equal(sum(120,230),450);
     });
-
-
-    it('420 + 230 should be equal to 650', function() {
-        assert.equal(sum(420,230),450);
-    });
 });
