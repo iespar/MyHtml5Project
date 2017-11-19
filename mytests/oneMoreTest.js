@@ -44,7 +44,7 @@ describe('Multiplying', function() {
          assert.equal(mult(5,3),15);
      });
 
-    it('50 * 3 should be equal to 150', function() {
+    it('51 * 3 should be equal to 153', function() {
         assert.equal(mult(5,3),150);
     });
 });
