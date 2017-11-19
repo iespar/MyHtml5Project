@@ -9,12 +9,11 @@ describe('Array', function() {
 });
 
 function sum(x,y) {
-  if (x==0) {
-      return 0
-  }
-  else {
-      return x + y
-  }
+    return x + y
+}
+
+function mult(x,y) {
+    return x * y
 }
 
 describe('Koko', function() {
@@ -37,5 +36,15 @@ describe('Kiko', function() {
 
     it('420 + 230 should be equal to 650', function() {
         assert.equal(sum(420,230),450);
+    });
+});
+
+describe('Multiplying', function() {
+   it('5 * 3 should be equal to 15', function() {
+         assert.equal(mult(5,3),15);
+     });
+
+    it('50 * 3 should be equal to 150', function() {
+        assert.equal(mult(5,3),150);
     });
 });
