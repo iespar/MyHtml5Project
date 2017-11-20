@@ -1,5 +1,6 @@
 // Inserted from team repo
 // New comment from Webstorm
+// More comments
 var assert = require('assert');
 
 describe('Array-op', function() {
