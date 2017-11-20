@@ -17,7 +17,7 @@ function sum(x,y) {
   }
 }
 
-describe('Kokoko', function() {
+describe('Kokoliso', function() {
     describe('sum()', function() {
         it('sum should add two numbers!!!!!', function() {
             assert.equal(sum(85,100),185);
