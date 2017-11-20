@@ -1,3 +1,4 @@
+// Westorm --> Comment
 var assert = require('assert');
 
 describe('Array', function() {
