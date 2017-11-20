@@ -34,7 +34,7 @@ describe('Kiko', function() {
         assert.equal(sum(120,230),450);
     });
 
-    it('50 + 50 should be equal to 100', function() {
+    it('250 + 50 should be equal to 300', function() {
         assert.equal(sum(50,50),100);
     });
 });
