@@ -1,4 +1,5 @@
 // Inserted from team repo
+// More comments
 var assert = require('assert');
 
 describe('Array', function() {
