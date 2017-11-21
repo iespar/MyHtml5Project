@@ -25,7 +25,7 @@ describe('Koko', function() {
     });
 });
 
-describe('Kiko', function() {
+describe('Kiko-pepe', function() {
     it('120 + 30 should be equal to 150', function() {
         assert.equal(sum(120,30),150);
     });
